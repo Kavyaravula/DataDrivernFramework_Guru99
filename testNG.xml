@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Guru 99 Banking Application test Suite">
+<listeners>
+		<listener class-name="com.qa.guru99.Report.Report" />
+</listeners>
+
+<test name ="Guru99 Manager Tests">
+<classes>
+<class name="com.qa.guru99.TestCases.LoginTest"/>
+<class name="com.qa.guru99.TestCases.HomePgaeTest"/>
+
+
+</classes>
+
+
+</test>
+</suite>
